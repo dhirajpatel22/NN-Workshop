@@ -100,12 +100,9 @@ model.compile(
 model.fit(
     x_train,
     y_train_oh,
-    epochs=5,
-    batch_size=32
 )
 ```
-* Trains the model for 5 epochs.
-* Uses mini-batches of size 32.
+* Trains the model on train data and labels.
 
 ### 8. Evaluate the Model
 ```
